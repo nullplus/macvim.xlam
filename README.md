@@ -14,15 +14,17 @@
   </a>
 </p>
 
-# vim.xlam
+# macvim.xlam
 
 [VimExcel](https://www.vector.co.jp/soft/winnt/business/se494158.html) を参考に、ExcelでVimのキーバインドが使えるようにした Excelアドインです。
 
 This is an Excel add-in that allows Vim keybindings to be used in Excel, with reference to [Vimexcel](https://www.vector.co.jp/soft/winnt/business/se494158.html).
 
 ## Description
+Please wait...Comming soon...maybe...
 
-vim.xlam は vim のような使用感で Excel 上でもキーボード主体で操作できるようにするための Excelアドインです。
+macvim.xlam は vim のような使用感で Excel for Mac 上でもキーボード主体で操作できるようにするための Excelアドインです。
+vim.xlamからのforkで、windows apiを使用して実装されていたものをAppleScriptで再実装する予定です。現在準備中。
 
 拡張性を意識して作成しており、自身でメソッドを作成し `map` メソッドでキー割り当てを行うことで、簡単にカスタマイズできます。またデフォルトのキーバインドから簡単に変えられるように設計していますので、ご自分に取って最適なキーバインドに設定することができます。
 
